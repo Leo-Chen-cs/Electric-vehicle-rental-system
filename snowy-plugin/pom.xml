@@ -37,7 +37,6 @@
         <module>snowy-plugin-sys</module>
 
         <!-- 车辆插件 -->
-        <module>scooter-plugin</module>
 
     </modules>
 </project>
