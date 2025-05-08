@@ -1,4 +1,9 @@
-# 🛴 Scooter Lease Project Documentation
+# Scooter Lease Project Documentation
+
+<div align="center">
+<p align="center">
+  <img src="./logo.png" alt="Scooter Lease Logo" style="border-radius: 6px;"/>
+</p>
 
 ## 📋 Project Overview
 Scooter Lease is a modular electric scooter rental management system that adopts a front-end and back-end separation design pattern. The project consists of three main parts: mobile application (app-frontend), backend service (snowy), and admin panel (snowy-admin-web). The backend uses a modular design with a plugin architecture for feature extension and maintenance.
