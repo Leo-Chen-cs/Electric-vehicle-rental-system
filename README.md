@@ -9,6 +9,37 @@
 ## 📋 Project Overview
 Scooter Lease is a modular electric scooter rental management system that adopts a front-end and back-end separation design pattern. The project consists of three main parts: mobile application (app-frontend), backend service (snowy), and admin panel (snowy-admin-web). The backend uses a modular design with a plugin architecture for feature extension and maintenance.
 
+## 🗄️ Database Setup
+
+### Database Import
+1. Create a new MySQL database named `scooter_lease`
+2. Import the database file from `instance/scooter_lease.sql`
+   ```bash
+   mysql -u root -p scooter_lease < instance/scooter_lease.sql
+   ```
+
+### Database Configuration
+1. Navigate to `snowy/snowy-web-app/src/main/resources/application.properties`
+2. Update the database connection settings:
+   ```properties
+   # MySQL Configuration
+   spring.datasource.dynamic.datasource.master.driver-class-name=com.mysql.cj.jdbc.Driver
+   spring.datasource.dynamic.datasource.master.url=jdbc:mysql://localhost:3306/scooter_lease?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true&useInformationSchema=true&rewriteBatchedStatements=true
+   spring.datasource.dynamic.datasource.master.username=your_username
+   spring.datasource.dynamic.datasource.master.password=your_password
+   ```
+
+### Redis Configuration
+1. In the same `application.properties` file, update Redis settings:
+   ```properties
+   # Redis Configuration
+   spring.data.redis.database=1
+   spring.data.redis.host=localhost
+   spring.data.redis.port=6379
+   spring.data.redis.password=your_redis_password
+   spring.data.redis.timeout=10s
+   ```
+
 ## 🛠️ Technology Stack
 
 ### 📱 Mobile Application (app-frontend)
