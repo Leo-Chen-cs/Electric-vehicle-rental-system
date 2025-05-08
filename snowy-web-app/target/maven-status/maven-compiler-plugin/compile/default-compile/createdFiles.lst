@@ -1,0 +1,12 @@
+vip\xiaonuo\core\config\GlobalConfigure.class
+vip\xiaonuo\core\handler\GlobalErrorViewHandler.class
+vip\xiaonuo\core\handler\GlobalExceptionHandler.class
+vip\xiaonuo\core\config\DruidConfigure.class
+vip\xiaonuo\core\config\GlobalConfigure$CustomDbIdProvider.class
+vip\xiaonuo\core\handler\GlobalErrorViewController.class
+vip\xiaonuo\core\config\GlobalConfigure$CustomMetaObjectHandler.class
+vip\xiaonuo\core\config\GlobalConfigure$CommonWrapperAop.class
+vip\xiaonuo\core\handler\GlobalErrorAttributesHandler.class
+vip\xiaonuo\core\config\GlobalConfigure$CommonNoRepeatAop.class
+vip\xiaonuo\Application.class
+vip\xiaonuo\core\handler\GlobalExceptionUtil.class
