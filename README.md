@@ -1,4 +1,4 @@
-# Scooter Lease Project Documentation
+# Scooter Lease
 
 <div align="center">
 <p align="center">
