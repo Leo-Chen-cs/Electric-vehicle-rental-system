@@ -2,7 +2,7 @@
 
 <div align="center">
 <p align="center">
-  <img src="./logo.png" alt="Scooter Lease Logo" style="border-radius: 6px;"/>
+  <img src="./logo.png" alt="Scooter Lease Logo" height="200" width="200" style="border-radius: 6px;"/>
 </p>
 </div>
 
