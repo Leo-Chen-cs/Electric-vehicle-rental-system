@@ -1,11 +1,11 @@
-# Scooter Lease Project Documentation
+# 🛴 Scooter Lease Project Documentation
 
-## Project Overview
+## 📋 Project Overview
 Scooter Lease is a modular electric scooter rental management system that adopts a front-end and back-end separation design pattern. The project consists of three main parts: mobile application (app-frontend), backend service (snowy), and admin panel (snowy-admin-web). The backend uses a modular design with a plugin architecture for feature extension and maintenance.
 
-## Technology Stack
+## 🛠️ Technology Stack
 
-### Mobile Application (app-frontend)
+### 📱 Mobile Application (app-frontend)
 - Framework: Vue 3 + Tauri
 - UI Components: TDesign Mobile Vue
 - State Management: Pinia
@@ -13,7 +13,7 @@ Scooter Lease is a modular electric scooter rental management system that adopts
 - Map Service: AMap API
 - Build Tool: Vite
 
-### Backend Service (snowy)
+### ⚙️ Backend Service (snowy)
 - Framework: Spring Boot 3.2.1
 - Database: MySQL
 - ORM: MyBatis-Plus
@@ -28,7 +28,7 @@ Scooter Lease is a modular electric scooter rental management system that adopts
   - Internationalization: Multi-language support
   - Data Encryption: Using SM-Crypto for data encryption
 
-### Admin Panel (snowy-admin-web)
+### 💻 Admin Panel (snowy-admin-web)
 - Framework: Vue 3
 - UI Components: Ant Design Vue 4.x
 - State Management: Pinia
@@ -37,9 +37,9 @@ Scooter Lease is a modular electric scooter rental management system that adopts
 - Rich Text: TinyMCE
 - Build Tool: Vite
 
-## Project Structure
+## 📁 Project Structure
 
-### app-frontend (Mobile Application)
+### 📱 app-frontend (Mobile Application)
 ```
 app-frontend/
 ├── src/                # Source code directory
@@ -48,7 +48,7 @@ app-frontend/
 └── dist/              # Build output directory
 ```
 
-### snowy (Backend Service)
+### ⚙️ snowy (Backend Service)
 ```
 snowy/
 ├── snowy-common/      # Common module: utilities and configurations
@@ -58,7 +58,7 @@ snowy/
 └── database/          # Database scripts: initialization scripts
 ```
 
-### snowy-admin-web (Admin Panel)
+### 💻 snowy-admin-web (Admin Panel)
 ```
 snowy-admin-web/
 ├── src/              # Source code directory
@@ -66,9 +66,9 @@ snowy-admin-web/
 └── dist/             # Build output directory
 ```
 
-## Features
+## ✨ Features
 
-### Mobile Application
+### 📱 Mobile Application
 - User registration and login
 - Scooter rental
 - Real-time location tracking
@@ -76,7 +76,7 @@ snowy-admin-web/
 - Order management
 - User feedback
 
-### Backend Service
+### ⚙️ Backend Service
 - User authentication and authorization
 - Order management
 - Payment processing
@@ -85,7 +85,7 @@ snowy-admin-web/
 - System monitoring
 - Plugin extensions
 
-### Admin Panel
+### 💻 Admin Panel
 - User management
 - Device management
 - Order management
@@ -94,26 +94,26 @@ snowy-admin-web/
 - System configuration
 - Permission management
 
-## Development Requirements
+## 🔧 Development Requirements
 
-### Mobile Development
+### 📱 Mobile Development
 - Node.js >= 16
 - Rust (for Tauri)
 - Related development tools
 
-### Backend Development
+### ⚙️ Backend Development
 - JDK 17+
 - Maven 3.6+
 - MySQL 8.0+
 - Redis 6.0+
 
-### Admin Panel Development
+### 💻 Admin Panel Development
 - Node.js >= 16
 - Related development tools
 
-## Quick Start
+## 🚀 Quick Start
 
-### Mobile Application
+### 📱 Mobile Application
 ```bash
 cd app-frontend
 npm install
@@ -128,7 +128,7 @@ npm run tauri android build
 ```
 Install and run the packaged APK on your mobile device
 
-### Backend Service
+### ⚙️ Backend Service
 ```bash
 cd snowy
 mvn clean install
@@ -136,16 +136,16 @@ cd snowy-web-app
 mvn spring-boot:run
 ```
 
-### Admin Panel
+### 💻 Admin Panel
 ```bash
 cd snowy-admin-web
 npm install
 npm run dev
 ```
 
-## Deployment Guide
+## 📦 Deployment Guide
 
-### Mobile Application
+### 📱 Mobile Application
 1. Build the application:
 ```bash
 cd app-frontend
@@ -153,7 +153,7 @@ npm run tauri android build
 ```
 2. Publish the generated installation package
 
-### Backend Service
+### ⚙️ Backend Service
 1. Build the service:
 ```bash
 cd snowy
@@ -161,7 +161,7 @@ mvn clean package
 ```
 2. Deploy the generated JAR file
 
-### Admin Panel
+### 💻 Admin Panel
 1. Build the application:
 ```bash
 cd snowy-admin-web
@@ -169,18 +169,18 @@ npm run build
 ```
 2. Deploy the dist directory to a web server
 
-## Notes
+## ⚠️ Notes
 1. Ensure all necessary environment variables and configuration files are properly set
 2. Database needs to be pre-created with initial data imported
 3. Ensure Redis service is running properly
 4. Check network port configurations to avoid conflicts
 
-## Contributing
+## 🤝 Contributing
 1. Fork the project
 2. Create a feature branch
 3. Commit your changes
 4. Push to the branch
 5. Create a Pull Request
 
-## License
+## 📄 License
 Apache License 2.0 
